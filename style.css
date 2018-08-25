@@ -1,0 +1,57 @@
+body {
+	background-color: #D3D3D3;}
+.container {
+	background-color: gray;}
+.navbar-brand p {
+	font-size: 30px;
+}
+.row {
+	text-align: center;
+	background-image: url(http://data.1freewallpapers.com/download/gray-curves.jpg);
+	background-size: cover;}
+.jumbotron {
+	width: 100%;
+	height: 450px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	background-image: url(http://id.wallpaperforgirls.com/burung/wallpaper-untuk-anak-perempuan-640x480-131-9b2bf8dc.jpg);
+	background-size: cover;
+	position: relative;
+	margin: 10px auto;}
+.jumbotron h1 {
+	text-align: center;
+	position: relative;}
+.jumbotron p {
+	position: relative;
+	text-align: justify;}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+	margin: 0 auto;}
+.produk {
+	background-color: #D3D3D3;}
+.produk h1 {
+	padding: 5px;
+	font-family: 'Anton', sans-serif;}
+.thumbnail {
+	background-color: #D3D3D3;
+	height: 400px;}
+.thumbnail img {
+	border-radius: 10%;
+	width: 80%;}
+.footer {
+	text-align: center;
+	color: white;
+	padding: 5px;}
+
+
+
+
+
