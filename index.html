@@ -1,113 +1,402 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Jual Beli Burung Online</title>
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-</head>
-<body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><p>Jual Beli Burung Online</p></a>
-    </div>
+<html lang="en">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li><a href="baru.html">Login</a></li>
-        <li><a href="a">Register</a></li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Search</button>
-      </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-	<div class="container">
-		<div class="jumbotron">
-		  <div class="overlay"></div>
-		  <h1>Selamat Datang </h1>
-		  <p>Hobi memelihara burung adalah sebuah hobi yang kian digemari mulai dari kalangan remaja hingga dewasa sejak dulu. Dan akhirnya booming sampai sekarang ini.</p>
-		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Read more</a></p>
-		</div>
-		<div class="produk">
-		<h1>Daftar Dan Harga Burung</h1>
-		</div>
-		<div class="row" id="galery">
-		  <div class="col-sm-4 col-md-4">
-		    <div class="thumbnail">
-		      <img src="http://kicaku.com/wp-content/uploads/2015/03/Download-MP3-Suara-Kicau-Burung-Kenari-master.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Kenari</h3>
-		        <a href="">Spetifikasi</a>
-		        <p>Rp 250.000</p>
-		        <p><a href="#" class="btn btn-primary" role="button">Beli</a></p>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-4 col-md-4">
-		    <div class="thumbnail">
-		      <img src="https://cdn0-a.production.vidio.static6.com/uploads/video/image/699987/burung-lovebird-biru-mangsi-perso-birmang-5a42e2.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Love Bird</h3>
-		        <a href="">Spetifikasi</a>
-		        <p>Rp 250.000</p>
-		        <p><a href="#" class="btn btn-primary" role="button">Beli</a></p>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-4 col-md-4">
-		    <div class="thumbnail">
-		      <img src="https://media.beritagar.id/2018-05/acd1096ebb59c41f242c25faaf8248666879bf58.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Jalak Bali</h3>
-		        <a href="">Spetifikasi</a>
-		        <p>Rp 250.000</p>
-		        <p><a href="#" class="btn btn-primary" role="button">Beli</a></p>
-		      </div>
-		    </div>
-		  </div>
-		  <div class="col-sm-4 col-md-4 col-md-offset-4">
-		    <div class="thumbnail">
-		      <img src="https://satujam.com/wp-content/uploads/2015/11/pa-flonimal-nesia-blogspot-com.jpg" alt="...">
-		      <div class="caption">
-		        <h3>Nuri</h3>
-		        <a href="">Spetifikasi</a>
-		        <p>Rp 250.000</p>
-		        <p><a href="#" class="btn btn-primary" role="button">Beli</a></p>
-		      </div>
-		    </div>
-		  </div>
-		</div> 
-		<div class="footer">
-			&copy; 2018
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Bandung Tourism</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="realestate_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default" id="navbar-header">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" class="logo"  alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About us </a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="properties.html">Spot</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="social-links"><a href="#"><i class="fa fa-twitter global-radius"></i></a></li>
+                        <li class="social-links"><a href="#"><i class="fa fa-facebook global-radius"></i></a></li>
+                        <li class="social-links"><a href="#"><i class="fa fa-linkedin global-radius"></i></a></li>
+						<li class="search-option">
+							<button class="search tran3s dropdown-toggle" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+							<form action="#" class="p-color-bg dropdown-menu tran3s" aria-labelledby="searchDropdown">
+								<input type="text" placeholder="Search....">
+								<button class="p-color-bg"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</form>
+					   </li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+	
+	<ul class='slideshow'>
+		<li>
+			<span>Summer</span>
+		</li>
+		<li>		
+			<span>Fall</span>
+		</li>
+		<li>		
+			<span>Winter</span>
+		</li>
+		<li>
+			<span>Spring</span>
+		</li>
+	</ul>
+	
+    <div class="parallax first-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow slideInLeft hidden-xs hidden-sm">
+                    <div class="contact_form">
+                        <h3><i class="fa fa-sign-in grd1 global-radius"></i>SIGN IN MEMBER</h3>
+                        <form id="contactform1" class="row" name="contactform" method="post">
+                            <fieldset class="row-fluid">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="first_name1" id="first_name1" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="last_name1" id="last_name1" class="form-control" placeholder="Last Name">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                    <input type="email" name="email1" id="email1" class="form-control" placeholder="Your Email">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="password" name="select_service1" id="select_service1" class="selectpicker form-control" data-style="btn-white" placeholder="Password"></input>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="password" name="select_service1" id="select_service1" class="selectpicker form-control" data-style="btn-white" placeholder="Re-type Password"></input>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4 text-center">
+                                    <button type="submit" value="SEND" id="submit1" class="btn btn-light btn-radius btn-brd grd1 btn-block">Sign In</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+				<div class="col-md-6 col-sm-12">
+                    <div class="big-tagline clearfix">
+                        <h2>Welcome To Bandung Tourism</h2>
+                        <p class="lead">There Are So Many Tourist Attractions In Bandung That Are Very Interesting, Which You Certainly Like</p>
+                        <a data-scroll href="properties.html" class="btn btn-light btn-radius grd1 btn-brd">View Spot</a>
+                    </div>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div class="about-box">
+		<div class="container">
+			<div class="row">
+				<div class="top-feature owl-carousel owl-theme">
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="uploads/icon-01.png" class="img-responsive" alt=""></div>
+							<h4><a href="#">Lodging</a></h4>
+							<p>Lodging in Bandung guarantees the lowest prices! Get cheap lodging promos in Bandung and other hotels</p>
+						</div> 
+					</div>
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="uploads/icon-02.png" class="img-responsive" alt=""></div>
+							<h4><a href="#">Environment</a></h4>
+							<p>The beauty of Bandung City Nature Bandung is a cool city which is often referred to as Paris Indonesia.</p>
+						</div> 
+					</div>
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="uploads/icon-03.png" class="img-responsive" alt=""></div>
+							<h4><a href="#">About The city</a></h4>
+							<p>The city of Bandung is the largest metropolitan city in the province of West Java, as well as being the capital of the province.</p>
+						</div> 
+					</div>
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="uploads/icon-04.png" class="img-responsive" alt=""></div>
+							<h4><a href="#">Non Stop Security</a></h4>
+							<p>Lorem Is a dummy Mauris eu porta orci. In at erat enim. Suspendisse felis erat, volutpat at nisl sit amet, maximus molestie nisi. </p>
+						</div> 
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+
+
+    <div id="testimonials" class="section lb">
+        <div class="container" id="testimonial">
+            <div class="section-title row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>Comments</h3>
+                </div><!-- end col -->
+            </div><!-- end title -->
+
+                <div class="row">
+                <div class="col-md-6 ">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                            <fieldset class="row-fluid">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Comments"></textarea>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4 text-center">
+                                    <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Comment</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                    <div class="big-tagline clearfix">
+                        <img src="images/logos/logo.png" alt="" class="logo">
+                        <img src="./uploads/slider_01.jpg" style="width: 600px; height: 350px;margin-top: 20px;">
+                    </div>
+                </div>
+                </div><!-- end col -->
+                <br>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+								
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>James Fernando <small>- Manager of Racer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                                <h4>Jacques Philips <small>- Designer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>James Fernando <small>- Manager of Racer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                                <h4>Jacques Philips <small>- Designer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/logos/logo.png" alt="">
+                        </div>
+                        <p> Thank you for visiting our web site, hopefully what we include on the web page is useful for you
+                        </p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Info Link</h3>
+                        </div>
+
+                        <ul class="twitter-widget footer-links">
+                            <li><a href="index.html"> Home </a></li>
+                            <li><a href="about.html"> About Us </a></li>
+                            <li><a href="service.html"> Services</a></li>
+                            <li><a href="gallery.html"> Gallery</a></li>
+                            <li><a href="properties.html"> Spot</a></li>
+                            <li><a href="contact.html"> Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">daclim46@gmail.com</a></li>
+                            <li><a href="#">www.Daclim.com</a></li>
+                            <li>PO Box 40381 Sapan Sumbersari Ciparay Bandung Indonesia</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+                <div class="col-md-2 col-sm-2 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Social</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-github"></i> Github</a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i> Dribbble</a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name"><a href="https://html.design/">PT. </a>Bandung Tourism &copy; 2018 Devi Heriansyah</p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="col-md-12">
+                        <a href="contact.html"><p><button class="btn-lg fa fa-envelope-o btn-dark" style="color: gray; margin: 15px auto;" >
+                          Send Request</p></button></a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>    
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+   <!-- MAP & CONTACT -->
+    <script src="js/map.js"></script>
+
 </body>
 </html>
