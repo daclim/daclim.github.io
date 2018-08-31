@@ -2686,7 +2686,7 @@ select.mobile-device {
 
 .logo {
     height: 60px;
-    width: 300px;
+    width: 150px;
 }
 #support {
     background-image: url(uploads/hijau.jpg);
@@ -2726,8 +2726,23 @@ select.mobile-device {
     height: 80px;
     padding-top: 10px;
 }
-
-
+.img_logo {
+    width: 220px;
+    height: 100px;"
+}
+.service-widget {
+    height: 450px;
+    padding-bottom: 20px;
+}
+.single-services{
+    padding: 20px;
+    height: 370px;
+    border: outset gray 7px;
+}
+.single-feature{
+    height: 370px;
+    border: outset gray 7px;
+}
 
 
 
